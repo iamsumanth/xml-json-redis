@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  db:
+    image: "redis"
+    ports:
+      - "6379:6379"
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_REDIS_HOST: db
+      SPRING_REDIS_PORT: 6379
+      CONFIG_XML_PATH: "/app/test/config.xml"
+    volumes:
+      - "${config_xml_path}:/app/test"
+    depends_on:
+      - db

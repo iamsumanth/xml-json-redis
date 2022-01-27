@@ -1,0 +1,6 @@
+<config>
+    <subdomains>
+        <subdomain>http://secureline.tools.avast.com</subdomain>
+        <subdomain>http://gf.tools.avast.com</subdomain>
+    </subdomains>
+</config>

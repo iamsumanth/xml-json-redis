@@ -1,0 +1,6 @@
+<config>
+    <cookies>
+        <cookie name="dlp-avast" host="amazon">mmm_amz_dlp_777_ppc_m</cookie>
+        <cookie name="dlp-avast" host="baixaki">mmm_bxk_dlp_777_ppc_m</cookie>
+    </cookies>
+</config>
